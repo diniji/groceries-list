@@ -1,0 +1,65 @@
+body {
+  background-color: #62c2c8;
+}
+
+.app {
+  background-color: white;
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
+}
+
+h1 {
+font-family: 'Montserrat', sans-serif;
+}
+
+.crossed {
+text-decoration: line-through 2px red;
+-webkit-text-decoration-line: line-through;
+-webkit-text-decoration-color: red;
+-webkit-text-decoration-thickness:2px;
+background-color: #f0f0f0;
+}
+
+ul, li {
+list-style-type: none;
+padding: 10px;
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+display: flex;
+justify-content: center;
+}
+
+.btnAdd {
+background: #65aa06;
+margin-top: 5px;
+}
+
+.btnDelete {
+background: #ff4f5a;
+margin-bottom: 5px;
+}
+
+.btn {
+padding: 10px;
+border: none;
+width: 70%;
+color: white;
+font-size: 16px;
+font-family: 'Montserrat', sans-serif;
+}
+
+input {
+flex: 1; /* chtob u nas vse rastyanulos' */
+padding: 8px;
+margin: 5px 10px 15px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.liBox {
+display: flex;
+align-items: center;
+}
